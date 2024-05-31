@@ -1,0 +1,314 @@
+/*ESCUELA POLITÉCNICA NACIONAL*/
+/*APLICACIONES WEB*/
+/*REALIZADO POR: JUAN JIMA*/
+
+
+/*Estilos realizados con CSS para la parte superior de la página web*/
+
+@font-face {
+    font-family: "Menu";
+    src: url(Fuentes/Inter-Regular.otf);
+}
+
+@font-face {
+    font-family: "Titulo 1";
+    src: url(Fuentes/Inter-Bold.otf);
+}
+
+@font-face {
+    font-family: "Titulo 2";
+    src: url(Fuentes/Inter-SemiBold.otf);
+}
+
+@font-face {
+    font-family: "Romanesco";
+    src: url(Fuentes/Romanesco-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    box-sizing: content-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.encabezado{
+    align-items: center;
+    background-color: #A3A656;
+    display: flex;
+    justify-content: space-between;
+    padding: 11.5px 0px;
+}
+
+.encabezado p:hover{
+    color: #FFFF00;
+}
+
+.encabezado nav{
+    margin-left: 75px;
+}
+
+.encabezado nav ul{
+    display:flex;
+    list-style-type: none;
+    gap: 20px; 
+}
+
+.encabezado nav ul li{
+    font-family: "Menu";
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.encabezado nav ul li:hover{
+    color: #FFFF00;
+}
+
+.Mi_cuenta {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.Mi_cuenta div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Mi_cuenta p{
+    font-family: "Menu";
+    font-size: 14px;
+}
+
+.banderas{
+    padding-right: 10px;
+    margin: 0px;
+}
+
+.banner{
+    height:595.094px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Spa_Principal{
+    font-family: "Romanesco";
+    font-size: 96px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.Eslogan{
+    font-family: "Titulo 2";
+    font-size: 32px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 550px;
+}
+
+.panel{
+    background-color: #F2F6F6;
+}
+
+.panel form{
+    display: flex;
+    justify-content: center;
+    font-family: "Menu";
+    font-size: 16px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.panel form div{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.Reservar_Cita{
+    border-radius: 10px;
+    border-style: none;
+    height:60px;
+    width: 250px;
+}
+
+.Cod_Promocional{
+    border-radius: 10px;
+    border-style: none;
+    height:60px;
+}
+
+
+
+/*Estilos realizados con CSS para la parte media de la página web*/
+
+.Opcion_Reserva_De_Masajes{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0px;
+}
+
+.Tipo_De_Masaje{
+    width: 350px;
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+.tipoMasaje, h2 {
+    background-color: #A3A656;
+    border-radius: 15px 15px 0px 0px;
+    color: #ffffff;
+    font-family: "Titulo 2";
+    font-size: 32px;
+    padding: 20px;    
+    text-align: center;
+}
+
+.Inferior{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Descripcion_Del_Masaje{
+    font-family: "Menu";
+    font-size: 16px;
+    padding: 10px 0px;
+}
+
+.Precio_Del_Masaje{
+    font-family: "Titulo 2";
+    font-size: 32px;
+    padding-left: 10px;
+}
+
+.Boton_De_Reservas{
+    background-color: #A3A656;
+    border-style: none;
+    border-radius: 35px;
+    color: #FFFFFF;
+    font-family: "Menu";
+    padding: 10px 40px;
+}
+
+.Boton_De_Reservas:hover{
+    background-color: #384001;
+}
+
+
+/*Estilos realizados con CSS para la parte inferior de la página web*/
+
+.Beneficios{
+    background-color: #F2F6F6;
+    padding-bottom: 151px;
+}
+
+.Eslogan_Socios_Y_Beneficios{
+    font-family: "Titulo 2";
+    font-size: 32px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.Opciones_A_Elegir{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Imagen_Beneficios{
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 10px #384001 solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 255px;
+    width: 255px;
+}
+
+.Nombres_Beneficios{
+    font-family: "Titulo 2";
+    font-size: 32px;
+    text-align: center;
+}
+
+.Ver_Condiciones{
+    background-color: #A3A656;
+    border-style: none;
+    border-radius: 35px;
+    color: #ffffff;
+    font-family: "Menu";
+    font-size: 16px;
+    padding: 15px 60px;
+    margin: 30px 0px;
+}
+
+.Ver_Condiciones:hover{
+    background-color: #384001;
+}
+
+.Preferencias_De_Las_Condiciones{
+    font-family: "Menu";
+    font-size: 16px;
+    text-align:start;
+    padding-left: 70px;
+}
+
+
+/*Estilos realizados con CSS para el pie de página de la página web*/
+
+input[type="text"]::placeholder{
+    font-family: "Menu";
+    font-size:16px;
+    color: #9E9A9A;
+}
+
+.Pie_de_Pagina{
+    align-items: center;
+    background-color: #384001;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.Pie_de_Pagina ul{
+    display: flex;
+    list-style-type: none;
+    gap: 45px;
+}
+
+.Pie_de_Pagina ul li{
+    color: #9E9A9A;
+    font-family: "Menu";
+    font-size: 16px;
+}
+
+.Pie_de_Pagina nav ul li:hover{
+    color: #ffff00;
+}
+
+.Redes_Sociales:hover{
+    color: #ffff00;
+}
+
+.Menu_De_Opciones_Pie_De_Pagina{
+    align-items: center;
+    display: flex;
+    color: #9E9A9A;
+    font-family: "Menu";
+    font-size: 16p;
+    gap: 30px;
+    padding-right: 50px;
+}
+
